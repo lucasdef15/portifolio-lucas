@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" preserveAspectRatio="xMidYMid meet">
+  <style>
+    /* Controla a cor do 'L' para ser branca no modo escuro do navegador */
+    .letter-l {
+      fill: #ffffff;
+    }
+
+    /* Opcional: Se o usuário mudar o Windows/Mac para modo claro, o 'L' fica escuro para não sumir na aba */
+    @media (prefers-color-scheme: light) {
+      .letter-l {
+        fill: #1a1a1a;
+      }
+    }
+  </style>
+
+  {/* 1. O Círculo de fundo (Preto sólido e arredondado) */}
+  <circle cx="32" cy="32" r="30" fill="#000000" />
+
+  {/* 2. O seu 'L' original, agora separado, centralizado e responsivo à cor branca */}
+  <path 
+    class="letter-l" 
+    d="M43.275 46.508h-20.55V17.492h6.063v23.799h14.488v5.217z" 
+  />
+</svg>
