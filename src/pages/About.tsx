@@ -1,9 +1,5 @@
-import {
-  BsFillBuildingFill,
-  BsCalendar3,
-  BsCheck2Circle,
-} from "react-icons/bs";
-import { GoLocation } from "react-icons/go";
+import { BsCheck2Circle } from "react-icons/bs";
+
 import { motion } from "framer-motion";
 import { routesVariants } from "../animations/animations";
 import AboutCard from "../components/common/AboutCard";
