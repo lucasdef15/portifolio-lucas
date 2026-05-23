@@ -79,7 +79,7 @@ export default function About() {
             <AboutCard
               title="Supervisor de Engenharia Clínica"
               badge="Atual"
-              company="Equipacare (Hospital São Lucas)"
+              company="Equipacare"
               location="Ribeirão Preto, SP"
               period="Abr 2026 - Presente"
               index={0}
