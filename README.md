@@ -32,16 +32,16 @@ O projeto foi construído utilizando as melhores práticas de desenvolvimento fr
 ## 📦 Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
+
    ```bash
    git clone [https://github.com/seu-usuario/portfolio-lucas.git](https://github.com/seu-usuario/portfolio-lucas.git)
    ```
 
-````
-
 2. Instale as dependências:
+
 ```bash
 npm install
-````
+```
 
 3. Crie um arquivo .env.local na raiz do projeto e configure a sua chave do Web3Forms:
 
