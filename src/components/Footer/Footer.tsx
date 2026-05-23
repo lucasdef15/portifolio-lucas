@@ -27,7 +27,7 @@ export default function Footer() {
                 icon: <MdOutlineMailOutline />,
                 href: "mailto:lucasdefaria2025@gmail.com",
               },
-              { icon: <IoLogoWhatsapp />, href: "https://wa.me/5519996154832" },
+              { icon: <IoLogoWhatsapp />, href: "https://wa.me/5511978824038" },
               { icon: <AiFillGithub />, href: "https://github.com/lucasdef15" },
               {
                 icon: <AiFillLinkedin />,
