@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
     livePreviewLink: "https://r2619.us/",
     codeLink: "https://github.com/lucasdef15/butterflies-hurricane",
     coverImage: [
-      personal6, // Coloquei o personal6 primeiro porque mostra o blog ativo e chama mais atenção visualmente
+      personal6,
       personal1,
       personal2,
       personal3,
@@ -77,7 +77,7 @@ export const projectsData: Project[] = [
       "Sistema focado em segurança para autenticação e autorização de utilizadores. Implementa criptografia de palavras-passe, controlo de sessões e conteinerização completa da aplicação e da base de dados via Docker.",
     techStack: "Node.js, Express, Docker, MySQL",
     technologies: ["Node.js", "Express", "Docker", "MySQL", "Security"],
-    livePreviewLink: "", // Mantido vazio conforme o original
+    livePreviewLink: "",
     codeLink: "https://github.com/lucasdef15/auth_project.git",
     coverImage: [auth1],
   },

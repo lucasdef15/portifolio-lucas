@@ -52,7 +52,6 @@ export default function Hero() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-18 items-center w-full">
-          {/* Texto */}
           <div className="hero-text-content flex flex-col gap-6 z-20 order-1 lg:order-1">
             <div className="space-y-2">
               <h1>
@@ -61,7 +60,9 @@ export default function Hero() {
                   Faria
                 </span>
               </h1>
-              <h2>Engenheiro Clínico & Desenvolvedor Fullstack</h2>
+              <h2>
+                Desenvolvedor Fullstack & Especialista em Engenharia Clínica
+              </h2>
             </div>
 
             <p>
@@ -83,7 +84,6 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Container 3D - Centralizado em todas as telas */}
           <motion.div
             ref={container3D}
             variants={floatAnimation}
@@ -94,7 +94,6 @@ export default function Hero() {
             <div className="relative w-full max-w-[380px] sm:max-w-[460px] lg:max-w-[520px] aspect-square rounded-3xl overflow-hidden border border-white/5 bg-gradient-to-br from-slate-950/50 to-transparent">
               <HeroModel />
 
-              {/* Glow */}
               <div className="absolute inset-0 bg-cyan-400/10 blur-3xl -z-10 rounded-3xl" />
             </div>
           </motion.div>
